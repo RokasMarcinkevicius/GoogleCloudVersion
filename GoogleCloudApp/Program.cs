@@ -9,3 +9,4 @@ var app = builder.Build();
 app.MapGet("/", () => $"Hello .NET {Environment.Version.ToString()}!");
 
 app.Run(url);
+// https://console.cloud.google.com/run/detail/europe-west4/googlecloudversion/revisions?hl=en&project=portfolio-1559066296541
